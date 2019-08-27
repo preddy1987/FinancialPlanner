@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Financial Planner", "Financial Planner\Financial Planner.csproj", "{50D3C9E0-509C-4F7B-B09C-F78ECC27CA57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Financial Planner CL", "Financial Planner CL\Financial Planner CL.csproj", "{DDE6DBEF-DF7E-41B8-8BF9-1561C222B9B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50D3C9E0-509C-4F7B-B09C-F78ECC27CA57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D3C9E0-509C-4F7B-B09C-F78ECC27CA57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D3C9E0-509C-4F7B-B09C-F78ECC27CA57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D3C9E0-509C-4F7B-B09C-F78ECC27CA57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE6DBEF-DF7E-41B8-8BF9-1561C222B9B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE6DBEF-DF7E-41B8-8BF9-1561C222B9B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE6DBEF-DF7E-41B8-8BF9-1561C222B9B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE6DBEF-DF7E-41B8-8BF9-1561C222B9B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC57B7BF-9A26-449E-8DA4-603A4A024E93}
+	EndGlobalSection
+EndGlobal

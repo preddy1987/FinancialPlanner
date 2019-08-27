@@ -1,0 +1,9 @@
+C:\Users\predd\source\repos\Financial Planner\Financial Planner CL\bin\Debug\netcoreapp2.1\Financial Planner CL.deps.json
+C:\Users\predd\source\repos\Financial Planner\Financial Planner CL\bin\Debug\netcoreapp2.1\Financial Planner CL.dll
+C:\Users\predd\source\repos\Financial Planner\Financial Planner CL\bin\Debug\netcoreapp2.1\Financial Planner CL.pdb
+C:\Users\predd\source\repos\Financial Planner\Financial Planner CL\obj\Debug\netcoreapp2.1\Financial Planner CL.csprojAssemblyReference.cache
+C:\Users\predd\source\repos\Financial Planner\Financial Planner CL\obj\Debug\netcoreapp2.1\Financial Planner CL.csproj.CoreCompileInputs.cache
+C:\Users\predd\source\repos\Financial Planner\Financial Planner CL\obj\Debug\netcoreapp2.1\Financial Planner CL.AssemblyInfoInputs.cache
+C:\Users\predd\source\repos\Financial Planner\Financial Planner CL\obj\Debug\netcoreapp2.1\Financial Planner CL.AssemblyInfo.cs
+C:\Users\predd\source\repos\Financial Planner\Financial Planner CL\obj\Debug\netcoreapp2.1\Financial Planner CL.dll
+C:\Users\predd\source\repos\Financial Planner\Financial Planner CL\obj\Debug\netcoreapp2.1\Financial Planner CL.pdb
