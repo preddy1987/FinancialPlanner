@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\predd\\source\\repos\\Financial Planner\\Financial Planner CL\\Financial Planner CL.csproj",
+      "projectUniqueName": "C:\\workspace\\GitHub Repos\\Financial-Planner\\Financial Planner\\Financial Planner CL\\Financial Planner CL.csproj",
       "projectName": "Financial Planner CL",
-      "projectPath": "C:\\Users\\predd\\source\\repos\\Financial Planner\\Financial Planner CL\\Financial Planner CL.csproj",
+      "projectPath": "C:\\workspace\\GitHub Repos\\Financial-Planner\\Financial Planner\\Financial Planner CL\\Financial Planner CL.csproj",
       "packagesPath": "C:\\Users\\predd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\predd\\source\\repos\\Financial Planner\\Financial Planner CL\\obj\\",
+      "outputPath": "C:\\workspace\\GitHub Repos\\Financial-Planner\\Financial Planner\\Financial Planner CL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
