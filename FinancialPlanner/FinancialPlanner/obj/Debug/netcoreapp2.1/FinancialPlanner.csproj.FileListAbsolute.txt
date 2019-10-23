@@ -1,0 +1,34 @@
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\FinancialPlanner.csprojAssemblyReference.cache
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\FinancialPlanner.csproj.CoreCompileInputs.cache
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\FinancialPlanner.RazorAssemblyInfo.cache
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\FinancialPlanner.RazorAssemblyInfo.cs
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\FinancialPlanner.AssemblyInfoInputs.cache
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\FinancialPlanner.AssemblyInfo.cs
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlanner\bin\Debug\netcoreapp2.1\FinancialPlanner.deps.json
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlanner\bin\Debug\netcoreapp2.1\FinancialPlanner.runtimeconfig.json
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlanner\bin\Debug\netcoreapp2.1\FinancialPlanner.runtimeconfig.dev.json
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlanner\bin\Debug\netcoreapp2.1\FinancialPlanner.dll
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlanner\bin\Debug\netcoreapp2.1\FinancialPlanner.pdb
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlanner\bin\Debug\netcoreapp2.1\FinancialPlannerCL.dll
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlanner\bin\Debug\netcoreapp2.1\FinancialPlannerCL.pdb
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\FinancialPlanner.RazorTargetAssemblyInfo.cache
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\FinancialPlanner.csproj.CopyComplete
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\FinancialPlanner.dll
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\FinancialPlanner.pdb
+C:\workspace\GitHub Repos\Financial Planner\FinancialPlanner\FinancialPlanner\FinancialPlanner\bin\Debug\netcoreapp2.1\FinancialPlanner.deps.json
+C:\workspace\GitHub Repos\Financial Planner\FinancialPlanner\FinancialPlanner\FinancialPlanner\bin\Debug\netcoreapp2.1\FinancialPlanner.runtimeconfig.json
+C:\workspace\GitHub Repos\Financial Planner\FinancialPlanner\FinancialPlanner\FinancialPlanner\bin\Debug\netcoreapp2.1\FinancialPlanner.runtimeconfig.dev.json
+C:\workspace\GitHub Repos\Financial Planner\FinancialPlanner\FinancialPlanner\FinancialPlanner\bin\Debug\netcoreapp2.1\FinancialPlanner.dll
+C:\workspace\GitHub Repos\Financial Planner\FinancialPlanner\FinancialPlanner\FinancialPlanner\bin\Debug\netcoreapp2.1\FinancialPlanner.pdb
+C:\workspace\GitHub Repos\Financial Planner\FinancialPlanner\FinancialPlanner\FinancialPlanner\bin\Debug\netcoreapp2.1\FinancialPlannerCL.dll
+C:\workspace\GitHub Repos\Financial Planner\FinancialPlanner\FinancialPlanner\FinancialPlanner\bin\Debug\netcoreapp2.1\FinancialPlannerCL.pdb
+C:\workspace\GitHub Repos\Financial Planner\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\FinancialPlanner.csprojAssemblyReference.cache
+C:\workspace\GitHub Repos\Financial Planner\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\FinancialPlanner.csproj.CoreCompileInputs.cache
+C:\workspace\GitHub Repos\Financial Planner\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\FinancialPlanner.RazorAssemblyInfo.cache
+C:\workspace\GitHub Repos\Financial Planner\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\FinancialPlanner.RazorAssemblyInfo.cs
+C:\workspace\GitHub Repos\Financial Planner\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\FinancialPlanner.AssemblyInfoInputs.cache
+C:\workspace\GitHub Repos\Financial Planner\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\FinancialPlanner.AssemblyInfo.cs
+C:\workspace\GitHub Repos\Financial Planner\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\FinancialPlanner.RazorTargetAssemblyInfo.cache
+C:\workspace\GitHub Repos\Financial Planner\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\FinancialPlanner.csproj.CopyComplete
+C:\workspace\GitHub Repos\Financial Planner\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\FinancialPlanner.dll
+C:\workspace\GitHub Repos\Financial Planner\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\FinancialPlanner.pdb
