@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FinancialPlanner.Models
+namespace ToDoAPI.ViewModels
 {
     public class UserItemViewModel
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BankingService.Models
+namespace ToDoApp.Models
 {
     public class User
     {
@@ -14,5 +14,11 @@ namespace BankingService.Models
         public string Email { get; set; }
         public string Password { get; set; }
         public string ConfirmPassword { get; set; }
+        public List<ToDoListItem> ToDoListCollection { get; set; }
+
+        public User()
+        {
+            ToDoListCollection = new List<ToDoListItem>();
+        }
     }
 }

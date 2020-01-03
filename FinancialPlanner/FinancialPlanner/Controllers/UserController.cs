@@ -5,17 +5,15 @@ using System.Net;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using BankingService;
-using BankingService.Models;
-using BankingService.Interfaces;
-using BankingService.Exceptions;
-using FinancialPlanner.Models;
+using ToDoAPI.ViewModels;
+using ToDoApp;
+using ToDoApp.Models;
 
-namespace FinancialPlanner.Controllers
+namespace ToDoAPI.Controllers
 {
     public class UserController : AuthController
     {
-        public UserController(IBankingService db, IHttpContextAccessor httpContext) : base(db, httpContext)
+        public UserController(IToDoApp db, IHttpContextAccessor httpContext) : base(db, httpContext)
         {
 
         }

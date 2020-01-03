@@ -3,7 +3,7 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace BankingService
+namespace ToDoApp
 {
     /// <summary>
     /// Used to manage password verification, hash generation, salt generation, and encryption

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BankingService.Exceptions
+namespace ToDoApp.Exceptions
 {
     /// <summary>
     /// Specifies that passwords do not match each other

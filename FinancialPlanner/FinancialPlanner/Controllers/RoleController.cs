@@ -4,21 +4,19 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using BankingService;
-using BankingService.Models;
-using BankingService.Interfaces;
-using BankingService.Exceptions;
-using FinancialPlanner.Models;
+using ToDoApp;
+using ToDoAPI.ViewModels;
+using ToDoApp.Models;
 
-namespace FinancialPlanner.Controllers
+namespace ToDoAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class RoleController : ControllerBase
     {
-        private IBankingService _db = null;
+        private IToDoApp _db = null;
 
-        public RoleController(IBankingService db)
+        public RoleController(IToDoApp db)
         {
             _db = db;
         }

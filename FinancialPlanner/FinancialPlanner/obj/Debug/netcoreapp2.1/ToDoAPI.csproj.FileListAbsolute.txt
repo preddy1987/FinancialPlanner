@@ -1,0 +1,8 @@
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlanner\bin\Debug\netcoreapp2.1\ToDoCL.dll
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\ToDoAPI.csprojAssemblyReference.cache
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\ToDoAPI.csproj.CoreCompileInputs.cache
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\ToDoAPI.RazorAssemblyInfo.cache
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\ToDoAPI.RazorAssemblyInfo.cs
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\ToDoAPI.AssemblyInfoInputs.cache
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\ToDoAPI.AssemblyInfo.cs
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlanner\obj\Debug\netcoreapp2.1\ToDoAPI.RazorTargetAssemblyInfo.cache

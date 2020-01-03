@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BankingService.Models
+namespace ToDoApp.Models
 {
     public class RoleItem : BaseItem
     {

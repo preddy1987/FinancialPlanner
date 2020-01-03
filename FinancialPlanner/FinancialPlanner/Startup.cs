@@ -5,10 +5,10 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using BankingService.Mock;
-using BankingService.Interfaces;
+using ToDoEFDB.Context;
+using Microsoft.EntityFrameworkCore;
 
-namespace FinancialPlanner
+namespace ToDoAPI
 {
     public class Startup
     {
@@ -39,10 +39,13 @@ namespace FinancialPlanner
             services.AddCors();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddDbContext<ToDoAppContext>(
+                options => options.UseSqlServer(
+                    Configuration.GetConnectionString("DefaultConnection")));
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             string connectionString = Configuration.GetConnectionString("DefaultConnection");
-            services.AddScoped<IBankingService>(m => new FinancialPlannerDAO_MOCK());
+            //services.AddScoped<IToDo>(m => new FinancialPlannerDAO_MOCK());
             //services.AddScoped<ILogService>(m => new LogDBService(connectionString));
             //services.AddScoped<IBankingService>(m => new MockVendingDBService(connectionString));
 

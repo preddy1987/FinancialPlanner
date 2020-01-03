@@ -1,0 +1,14 @@
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerEFDB\bin\Debug\netcoreapp2.1\ToDoCL.dll
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerEFDB\obj\Debug\netcoreapp2.1\ToDoEFDB.csprojAssemblyReference.cache
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerEFDB\obj\Debug\netcoreapp2.1\ToDoEFDB.csproj.CoreCompileInputs.cache
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerEFDB\obj\Debug\netcoreapp2.1\ToDoEFDB.AssemblyInfoInputs.cache
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerEFDB\obj\Debug\netcoreapp2.1\ToDoEFDB.AssemblyInfo.cs
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerEFDB\bin\Debug\netcoreapp2.1\ToDoEFDB.deps.json
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerEFDB\bin\Debug\netcoreapp2.1\ToDoEFDB.runtimeconfig.json
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerEFDB\bin\Debug\netcoreapp2.1\ToDoEFDB.runtimeconfig.dev.json
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerEFDB\bin\Debug\netcoreapp2.1\ToDoEFDB.dll
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerEFDB\bin\Debug\netcoreapp2.1\ToDoEFDB.pdb
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerEFDB\bin\Debug\netcoreapp2.1\ToDoCL.pdb
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerEFDB\obj\Debug\netcoreapp2.1\ToDoEFDB.csproj.CopyComplete
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerEFDB\obj\Debug\netcoreapp2.1\ToDoEFDB.dll
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerEFDB\obj\Debug\netcoreapp2.1\ToDoEFDB.pdb

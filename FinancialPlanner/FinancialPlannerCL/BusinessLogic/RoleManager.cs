@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BankingService.Models;
+using ToDoApp.Models;
 
-namespace BankingService
+namespace ToDoApp
 {
     /// <summary>
     /// Holds a user and manages their permissions

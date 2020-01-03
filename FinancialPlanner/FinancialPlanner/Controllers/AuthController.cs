@@ -2,12 +2,12 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SessionControllerData;
-using BankingService;
-using BankingService.Models;
-using BankingService.Interfaces;
-using BankingService.Exceptions;
+using ToDoAPI.ViewModels;
+using ToDoEFDB;
+using ToDoApp;
+using ToDoApp.Models;
 
-namespace FinancialPlanner.Controllers
+namespace ToDoAPI.Controllers
 {
     public class AuthController : SessionController
     {
@@ -15,28 +15,25 @@ namespace FinancialPlanner.Controllers
         /// Manages the user authentication and authorization
         /// </summary>
         private RoleManager _roleMgr = null;
-        protected IBankingService _db = null;
+        protected IToDoApp _db = null;
         private const string RoleMgrKey = "RoleManager";
 
-        public AuthController(IBankingService db, IHttpContextAccessor httpContext) : base(httpContext)
+        public AuthController(IToDoApp db, IHttpContextAccessor httpContext) : base(httpContext)
         {
             _db = db;
-
             // Get the role manager from the session
             _roleMgr = GetSessionData<RoleManager>(RoleMgrKey);
-
             // If it does not exist on the session then add it
             if(_roleMgr == null)
             {
                 // Since the role manager is being created then a user still needs to be authenticated
                 _roleMgr = new RoleManager(null);
-
                 SetSessionData(RoleMgrKey, _roleMgr);
             }
         }
 
         /// <summary>
-        /// The current logged in user of the vending machine
+        /// The current logged in user
         /// </summary>
         public UserItem CurrentUser
         {
@@ -58,7 +55,7 @@ namespace FinancialPlanner.Controllers
         }
 
         /// <summary>
-        /// Returns true if the vending machine has an authenticated user
+        /// Returns true if the user is authenticated
         /// </summary>
         public bool IsAuthenticated
         {
@@ -69,7 +66,7 @@ namespace FinancialPlanner.Controllers
         }
 
         /// <summary>
-        /// Adds a new user to the vending machine system
+        /// Adds a new user
         /// </summary>
         /// <param name="userModel">Model that contains all the user information</param>
         public void RegisterUser(User userModel)
@@ -110,7 +107,7 @@ namespace FinancialPlanner.Controllers
         }
 
         /// <summary>
-        /// Logs a user into the vending machine system and throws exceptions on any failures
+        /// Logs a user and throws exceptions on any failures
         /// </summary>
         /// <param name="username">The username of the user to authenicate</param>
         /// <param name="password">The password of the user to authenicate</param>
@@ -140,7 +137,7 @@ namespace FinancialPlanner.Controllers
         }
 
         /// <summary>
-        /// Logs the current user out of the vending machine system
+        /// Logs the current user out
         /// </summary>
         public void LogoutUser()
         {

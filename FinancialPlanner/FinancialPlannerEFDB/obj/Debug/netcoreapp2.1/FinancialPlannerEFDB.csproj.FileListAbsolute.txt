@@ -1,0 +1,6 @@
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerEFDB\bin\Debug\netcoreapp2.1\FinancialPlannerEFDB.deps.json
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerEFDB\bin\Debug\netcoreapp2.1\FinancialPlannerEFDB.dll
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerEFDB\obj\Debug\netcoreapp2.1\FinancialPlannerEFDB.csprojAssemblyReference.cache
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerEFDB\obj\Debug\netcoreapp2.1\FinancialPlannerEFDB.csproj.CoreCompileInputs.cache
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerEFDB\obj\Debug\netcoreapp2.1\FinancialPlannerEFDB.AssemblyInfoInputs.cache
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerEFDB\obj\Debug\netcoreapp2.1\FinancialPlannerEFDB.AssemblyInfo.cs
