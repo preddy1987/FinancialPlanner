@@ -6,6 +6,7 @@ using ToDoAPI.ViewModels;
 using ToDoEFDB;
 using ToDoApp;
 using ToDoApp.Models;
+using ToDoApp.Exceptions;
 
 namespace ToDoAPI.Controllers
 {

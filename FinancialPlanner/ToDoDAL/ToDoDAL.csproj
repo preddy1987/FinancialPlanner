@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FinancialPlannerCL\ToDoApp.csproj" />
+    <ProjectReference Include="..\FinancialPlannerEFDB\ToDoEFDB.csproj" />
+  </ItemGroup>
+
 </Project>
