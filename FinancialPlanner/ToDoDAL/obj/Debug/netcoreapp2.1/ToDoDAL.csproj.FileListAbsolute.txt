@@ -1,0 +1,4 @@
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\ToDoDAL\obj\Debug\netcoreapp2.1\ToDoDAL.csprojAssemblyReference.cache
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\ToDoDAL\obj\Debug\netcoreapp2.1\ToDoDAL.csproj.CoreCompileInputs.cache
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\ToDoDAL\obj\Debug\netcoreapp2.1\ToDoDAL.AssemblyInfoInputs.cache
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\ToDoDAL\obj\Debug\netcoreapp2.1\ToDoDAL.AssemblyInfo.cs

@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using ToDoAPI.ViewModels;
 using ToDoApp;
 using ToDoApp.Models;
+using ToDoApp.Models.Database;
 
 namespace ToDoAPI.Controllers
 {

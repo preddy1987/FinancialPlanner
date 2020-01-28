@@ -945,6 +945,16 @@
         "compile": {
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
+      },
+      "ToDoApp.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/ToDoApp.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ToDoApp.Models.dll": {}
+        }
       }
     }
   },
@@ -3604,6 +3614,11 @@
         "system.threading.tasks.4.0.11.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
+    },
+    "ToDoApp.Models/1.0.0": {
+      "type": "project",
+      "path": "../ToDoApp.Models/ToDoApp.Models.csproj",
+      "msbuildProject": "../ToDoApp.Models/ToDoApp.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3611,7 +3626,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 2.1.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.1",
       "Microsoft.EntityFrameworkCore.Tools >= 2.1.1",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "ToDoApp.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3643,7 +3659,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\workspace\\GitHub Repos\\FinancialPlanner\\FinancialPlanner\\ToDoApp.Models\\ToDoApp.Models.csproj": {
+              "projectPath": "C:\\workspace\\GitHub Repos\\FinancialPlanner\\FinancialPlanner\\ToDoApp.Models\\ToDoApp.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

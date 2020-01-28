@@ -4339,7 +4339,8 @@
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "2.1.1",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1"
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1",
+          "ToDoApp.Models": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ToDoApp.dll": {}
@@ -4348,19 +4349,14 @@
           "bin/placeholder/ToDoApp.dll": {}
         }
       },
-      "ToDoEFDB/1.0.0": {
+      "ToDoApp.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "2.1.1",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1",
-          "ToDoApp": "1.0.0"
-        },
         "compile": {
-          "bin/placeholder/ToDoEFDB.dll": {}
+          "bin/placeholder/ToDoApp.Models.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ToDoEFDB.dll": {}
+          "bin/placeholder/ToDoApp.Models.dll": {}
         }
       }
     }
@@ -11819,10 +11815,10 @@
       "path": "../FinancialPlannerCL/ToDoApp.csproj",
       "msbuildProject": "../FinancialPlannerCL/ToDoApp.csproj"
     },
-    "ToDoEFDB/1.0.0": {
+    "ToDoApp.Models/1.0.0": {
       "type": "project",
-      "path": "../FinancialPlannerEFDB/ToDoEFDB.csproj",
-      "msbuildProject": "../FinancialPlannerEFDB/ToDoEFDB.csproj"
+      "path": "../ToDoApp.Models/ToDoApp.Models.csproj",
+      "msbuildProject": "../ToDoApp.Models/ToDoApp.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -11832,8 +11828,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.1",
       "Microsoft.EntityFrameworkCore.Tools >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
-      "ToDoApp >= 1.0.0",
-      "ToDoEFDB >= 1.0.0"
+      "ToDoApp >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -11868,9 +11863,6 @@
           "projectReferences": {
             "C:\\workspace\\GitHub Repos\\FinancialPlanner\\FinancialPlanner\\FinancialPlannerCL\\ToDoApp.csproj": {
               "projectPath": "C:\\workspace\\GitHub Repos\\FinancialPlanner\\FinancialPlanner\\FinancialPlannerCL\\ToDoApp.csproj"
-            },
-            "C:\\workspace\\GitHub Repos\\FinancialPlanner\\FinancialPlanner\\FinancialPlannerEFDB\\ToDoEFDB.csproj": {
-              "projectPath": "C:\\workspace\\GitHub Repos\\FinancialPlanner\\FinancialPlanner\\FinancialPlannerEFDB\\ToDoEFDB.csproj"
             }
           }
         }

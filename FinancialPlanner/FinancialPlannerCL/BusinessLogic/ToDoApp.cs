@@ -1,10 +1,7 @@
 ﻿using ToDoApp.Exceptions;
-//using ToDoApp.Interfaces;
-using ToDoApp.Models;
+using ToDoApp.Models.Database;
 using System;
-using System.Collections.Generic;
-using System.Text;
-
+using ToDoApp.Models;
 
 namespace ToDoApp
 {
@@ -86,27 +83,27 @@ namespace ToDoApp
         /// </summary>
         /// <param name="username">The username of the user to authenicate</param>
         /// <param name="password">The password of the user to authenicate</param>
-        //public void LoginUser(string username, string password)
-        //{
-        //    UserItem user = null;
+        public void LoginUser(string username, string password)
+        {
+            UserItem user = null;
 
-        //    try
-        //    {
-        //        user = _database.GetUserItem(username);
-        //    }
-        //    catch (Exception)
-        //    {
-        //        throw new Exception("Either the username or the password is invalid.");
-        //    }
+            try
+            {
+                user = _database.GetUserItem(username);
+            }
+            catch (Exception)
+            {
+                throw new Exception("Either the username or the password is invalid.");
+            }
 
-        //    PasswordManager passHelper = new PasswordManager(password, user.Salt);
-        //    if (!passHelper.Verify(user.Hash))
-        //    {
-        //        throw new Exception("Either the username or the password is invalid.");
-        //    }
+            PasswordManager passHelper = new PasswordManager(password, user.Salt);
+            if (!passHelper.Verify(user.Hash))
+            {
+                throw new Exception("Either the username or the password is invalid.");
+            }
 
-        //    _roleMgr = new RoleManager(user);
-        //}
+            _roleMgr = new RoleManager(user);
+        }
 
         /// <summary>
         /// Logs the current user out of the vending machine system

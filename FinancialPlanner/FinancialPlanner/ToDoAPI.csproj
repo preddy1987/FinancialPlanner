@@ -20,7 +20,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FinancialPlannerCL\ToDoApp.csproj" />
-    <ProjectReference Include="..\FinancialPlannerEFDB\ToDoEFDB.csproj" />
   </ItemGroup>
 
 </Project>

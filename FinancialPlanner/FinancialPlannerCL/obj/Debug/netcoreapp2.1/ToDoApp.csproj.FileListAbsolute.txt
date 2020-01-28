@@ -1,0 +1,11 @@
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerCL\obj\Debug\netcoreapp2.1\ToDoApp.csprojAssemblyReference.cache
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerCL\obj\Debug\netcoreapp2.1\ToDoApp.csproj.CoreCompileInputs.cache
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerCL\obj\Debug\netcoreapp2.1\ToDoApp.AssemblyInfoInputs.cache
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerCL\obj\Debug\netcoreapp2.1\ToDoApp.AssemblyInfo.cs
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerCL\bin\Debug\netcoreapp2.1\ToDoApp.deps.json
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerCL\bin\Debug\netcoreapp2.1\ToDoApp.runtimeconfig.json
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerCL\bin\Debug\netcoreapp2.1\ToDoApp.runtimeconfig.dev.json
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerCL\bin\Debug\netcoreapp2.1\ToDoApp.dll
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerCL\bin\Debug\netcoreapp2.1\ToDoApp.pdb
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerCL\obj\Debug\netcoreapp2.1\ToDoApp.dll
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerCL\obj\Debug\netcoreapp2.1\ToDoApp.pdb

@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FinancialPlannerCL\ToDoApp.csproj" />
-    <ProjectReference Include="..\FinancialPlannerEFDB\ToDoEFDB.csproj" />
+    <ProjectReference Include="..\ToDoApp.Models\ToDoApp.Models.csproj" />
   </ItemGroup>
 
 </Project>
