@@ -5,8 +5,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using ToDoEFDB.Context;
 using Microsoft.EntityFrameworkCore;
+using ToDoEFDB.Context;
 
 namespace ToDoAPI
 {

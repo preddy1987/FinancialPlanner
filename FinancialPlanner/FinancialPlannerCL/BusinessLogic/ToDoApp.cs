@@ -1,5 +1,4 @@
 ﻿using ToDoApp.Exceptions;
-using ToDoApp.Models.Database;
 using System;
 using ToDoApp.Models;
 
@@ -41,7 +40,7 @@ namespace ToDoApp
         /// Adds a new user to the vending machine system
         /// </summary>
         /// <param name="userModel">Model that contains all the user information</param>
-        public void RegisterUser(User userModel)
+        public void RegisterUser(UserItem userModel)
         {
             UserItem userItem = null;
             try

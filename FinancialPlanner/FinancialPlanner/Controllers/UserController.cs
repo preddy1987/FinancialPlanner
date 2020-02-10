@@ -8,7 +8,6 @@ using Microsoft.AspNetCore.Mvc;
 using ToDoAPI.ViewModels;
 using ToDoApp;
 using ToDoApp.Models;
-using ToDoApp.Models.Database;
 
 namespace ToDoAPI.Controllers
 {
@@ -54,7 +53,7 @@ namespace ToDoAPI.Controllers
 
             try
             {
-                var user = new User();
+                var user = new UserItem();
                 user.ConfirmPassword = info.ConfirmPassword;
                 user.Email = info.Email;
                 user.FirstName = info.FirstName;

@@ -9,3 +9,6 @@ C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerCL\b
 C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerCL\bin\Debug\netcoreapp2.1\ToDoApp.pdb
 C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerCL\obj\Debug\netcoreapp2.1\ToDoApp.dll
 C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerCL\obj\Debug\netcoreapp2.1\ToDoApp.pdb
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerCL\bin\Debug\netcoreapp2.1\ToDoApp.Models.dll
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerCL\bin\Debug\netcoreapp2.1\ToDoApp.Models.pdb
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerCL\obj\Debug\netcoreapp2.1\ToDoApp.csproj.CopyComplete

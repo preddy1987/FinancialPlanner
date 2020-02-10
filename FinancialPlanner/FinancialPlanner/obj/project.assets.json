@@ -4358,6 +4358,20 @@
         "runtime": {
           "bin/placeholder/ToDoApp.Models.dll": {}
         }
+      },
+      "ToDoDAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "ToDoApp": "1.0.0",
+          "ToDoApp.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ToDoDAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ToDoDAL.dll": {}
+        }
       }
     }
   },
@@ -11819,6 +11833,11 @@
       "type": "project",
       "path": "../ToDoApp.Models/ToDoApp.Models.csproj",
       "msbuildProject": "../ToDoApp.Models/ToDoApp.Models.csproj"
+    },
+    "ToDoDAL/1.0.0": {
+      "type": "project",
+      "path": "../ToDoDAL/ToDoDAL.csproj",
+      "msbuildProject": "../ToDoDAL/ToDoDAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -11828,7 +11847,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.1",
       "Microsoft.EntityFrameworkCore.Tools >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
-      "ToDoApp >= 1.0.0"
+      "ToDoApp >= 1.0.0",
+      "ToDoDAL >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -11863,6 +11883,9 @@
           "projectReferences": {
             "C:\\workspace\\GitHub Repos\\FinancialPlanner\\FinancialPlanner\\FinancialPlannerCL\\ToDoApp.csproj": {
               "projectPath": "C:\\workspace\\GitHub Repos\\FinancialPlanner\\FinancialPlanner\\FinancialPlannerCL\\ToDoApp.csproj"
+            },
+            "C:\\workspace\\GitHub Repos\\FinancialPlanner\\FinancialPlanner\\ToDoDAL\\ToDoDAL.csproj": {
+              "projectPath": "C:\\workspace\\GitHub Repos\\FinancialPlanner\\FinancialPlanner\\ToDoDAL\\ToDoDAL.csproj"
             }
           }
         }

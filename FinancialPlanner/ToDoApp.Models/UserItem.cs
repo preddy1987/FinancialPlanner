@@ -11,6 +11,8 @@ namespace ToDoApp.Models
         public string Hash { get; set; }
         public string Salt { get; set; }
         public int RoleId { get; set; }
+        public string Password { get; set; }
+        public string ConfirmPassword { get; set; }
         public List<UserToDoListItem> UserToDoListItems { get; set; }
 
         public List<ToDoListItem> ToDoListItems {

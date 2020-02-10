@@ -3,11 +3,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SessionControllerData;
 using ToDoAPI.ViewModels;
-using ToDoEFDB;
 using ToDoApp;
 using ToDoApp.Models;
 using ToDoApp.Exceptions;
-using ToDoApp.Models.Database;
 
 namespace ToDoAPI.Controllers
 {
@@ -71,7 +69,7 @@ namespace ToDoAPI.Controllers
         /// Adds a new user
         /// </summary>
         /// <param name="userModel">Model that contains all the user information</param>
-        public void RegisterUser(User userModel)
+        public void RegisterUser(UserItem userModel)
         {
             UserItem userItem = null;
             try

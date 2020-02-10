@@ -1,4 +1,4 @@
-﻿using ToDoApp.Models.Database;
+﻿using ToDoApp.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using Microsoft.Extensions.Logging;

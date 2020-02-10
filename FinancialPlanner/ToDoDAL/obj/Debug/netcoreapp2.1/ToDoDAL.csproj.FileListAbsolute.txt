@@ -2,3 +2,15 @@ C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\ToDoDAL\obj\Debug\ne
 C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\ToDoDAL\obj\Debug\netcoreapp2.1\ToDoDAL.csproj.CoreCompileInputs.cache
 C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\ToDoDAL\obj\Debug\netcoreapp2.1\ToDoDAL.AssemblyInfoInputs.cache
 C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\ToDoDAL\obj\Debug\netcoreapp2.1\ToDoDAL.AssemblyInfo.cs
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\ToDoDAL\bin\Debug\netcoreapp2.1\ToDoDAL.deps.json
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\ToDoDAL\bin\Debug\netcoreapp2.1\ToDoDAL.dll
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\ToDoDAL\bin\Debug\netcoreapp2.1\ToDoDAL.pdb
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\ToDoDAL\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Logging.Console.dll
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\ToDoDAL\bin\Debug\netcoreapp2.1\ToDoApp.dll
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\ToDoDAL\bin\Debug\netcoreapp2.1\ToDoApp.Models.dll
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\ToDoDAL\bin\Debug\netcoreapp2.1\ToDoApp.pdb
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\ToDoDAL\bin\Debug\netcoreapp2.1\ToDoApp.Models.pdb
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\ToDoDAL\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Logging.Console.xml
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\ToDoDAL\obj\Debug\netcoreapp2.1\ToDoDAL.csproj.CopyComplete
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\ToDoDAL\obj\Debug\netcoreapp2.1\ToDoDAL.dll
+C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\ToDoDAL\obj\Debug\netcoreapp2.1\ToDoDAL.pdb
