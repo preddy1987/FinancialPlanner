@@ -153,27 +153,7 @@ namespace ToDoDAL
         }
         #endregion
 
-        #region ToDoItem and ToDoListItems
-        public ToDoListItem AddToDoList(ToDoListItem newToDoList, int userId)
-        {
-            UserItem user;
-            ToDoListItem toDoList = new ToDoListItem();
-            using (var context = new ToDoAppContext())
-            {
-                user = context.UserItem.Find(userId);
- 
-                toDoList.Category = newToDoList.Category;
-                toDoList.Description = newToDoList.Category;
-                toDoList.Name = newToDoList.Name;
-                toDoList.TimeCreated = DateTime.Now;
-                context.ToDoListItem.Add(toDoList);
-
-                user.UserToDoListItems.Add(new UserToDoListItem { ToDoListItemId = toDoList.Id });
-                context.SaveChanges();
-            }
-            return toDoList;
-        }
-
+        #region ToDoItem
         public ToDoItem AddToDo(ToDoItem newToDo, int toDoListId)
         {
             ToDoItem toDo = new ToDoItem();
@@ -192,7 +172,66 @@ namespace ToDoDAL
             return toDo;
         }
 
+        public bool UpdateToDo(ToDoItem updatedToDo)
+        {
+            using (var context = new ToDoAppContext())
+            {
+                ToDoItem toDo = context.ToDoItem.Find(updatedToDo.Id);
+                toDo.Name = updatedToDo.Name;
+                toDo.Description = updatedToDo.Description;
+                toDo.ToDoListItem = updatedToDo.ToDoListItem;
+                context.SaveChanges();
 
+                int? id = toDo.Id;
+                return id != null;
+            }
+        }
+
+        public ToDoItem GetToDo(int toDoId)
+        {
+            ToDoItem toDo;
+            using (var context = new ToDoAppContext())
+            {
+                toDo = context.ToDoItem.Find(toDoId);
+                context.ToDoItem.Remove(toDo);
+                context.SaveChanges();
+            }
+            return toDo;
+        }
+
+
+
+        public void DeleteToDo(int toDoId)
+        {
+            using (var context = new ToDoAppContext())
+            {
+                ToDoItem toDo = context.ToDoItem.Find(toDoId);
+                context.ToDoItem.Remove(toDo);
+                context.SaveChanges();
+            }
+        }
+        #endregion
+
+        #region ToDoListItems
+        public ToDoListItem AddToDoList(ToDoListItem newToDoList, int userId)
+        {
+            UserItem user;
+            ToDoListItem toDoList = new ToDoListItem();
+            using (var context = new ToDoAppContext())
+            {
+                user = context.UserItem.Find(userId);
+
+                toDoList.Category = newToDoList.Category;
+                toDoList.Description = newToDoList.Category;
+                toDoList.Name = newToDoList.Name;
+                toDoList.TimeCreated = DateTime.Now;
+                context.ToDoListItem.Add(toDoList);
+
+                user.UserToDoListItems.Add(new UserToDoListItem { ToDoListItemId = toDoList.Id });
+                context.SaveChanges();
+            }
+            return toDoList;
+        }
         #endregion
     }
 }

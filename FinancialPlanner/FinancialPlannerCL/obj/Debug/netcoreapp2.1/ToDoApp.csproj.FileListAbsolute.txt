@@ -12,3 +12,17 @@ C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerCL\o
 C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerCL\bin\Debug\netcoreapp2.1\ToDoApp.Models.dll
 C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerCL\bin\Debug\netcoreapp2.1\ToDoApp.Models.pdb
 C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\FinancialPlannerCL\obj\Debug\netcoreapp2.1\ToDoApp.csproj.CopyComplete
+C:\Work Space\Financial-Planner\FinancialPlanner\FinancialPlannerCL\bin\Debug\netcoreapp2.1\ToDoApp.deps.json
+C:\Work Space\Financial-Planner\FinancialPlanner\FinancialPlannerCL\bin\Debug\netcoreapp2.1\ToDoApp.runtimeconfig.json
+C:\Work Space\Financial-Planner\FinancialPlanner\FinancialPlannerCL\bin\Debug\netcoreapp2.1\ToDoApp.runtimeconfig.dev.json
+C:\Work Space\Financial-Planner\FinancialPlanner\FinancialPlannerCL\bin\Debug\netcoreapp2.1\ToDoApp.dll
+C:\Work Space\Financial-Planner\FinancialPlanner\FinancialPlannerCL\bin\Debug\netcoreapp2.1\ToDoApp.pdb
+C:\Work Space\Financial-Planner\FinancialPlanner\FinancialPlannerCL\bin\Debug\netcoreapp2.1\ToDoApp.Models.dll
+C:\Work Space\Financial-Planner\FinancialPlanner\FinancialPlannerCL\bin\Debug\netcoreapp2.1\ToDoApp.Models.pdb
+C:\Work Space\Financial-Planner\FinancialPlanner\FinancialPlannerCL\obj\Debug\netcoreapp2.1\ToDoApp.csprojAssemblyReference.cache
+C:\Work Space\Financial-Planner\FinancialPlanner\FinancialPlannerCL\obj\Debug\netcoreapp2.1\ToDoApp.csproj.CoreCompileInputs.cache
+C:\Work Space\Financial-Planner\FinancialPlanner\FinancialPlannerCL\obj\Debug\netcoreapp2.1\ToDoApp.AssemblyInfoInputs.cache
+C:\Work Space\Financial-Planner\FinancialPlanner\FinancialPlannerCL\obj\Debug\netcoreapp2.1\ToDoApp.AssemblyInfo.cs
+C:\Work Space\Financial-Planner\FinancialPlanner\FinancialPlannerCL\obj\Debug\netcoreapp2.1\ToDoApp.csproj.CopyComplete
+C:\Work Space\Financial-Planner\FinancialPlanner\FinancialPlannerCL\obj\Debug\netcoreapp2.1\ToDoApp.dll
+C:\Work Space\Financial-Planner\FinancialPlanner\FinancialPlannerCL\obj\Debug\netcoreapp2.1\ToDoApp.pdb

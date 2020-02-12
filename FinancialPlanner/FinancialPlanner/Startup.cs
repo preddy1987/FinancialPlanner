@@ -7,6 +7,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using ToDoEFDB.Context;
+using ToDoApp;
+using ToDoDAL;
 
 namespace ToDoAPI
 {
@@ -39,13 +41,13 @@ namespace ToDoAPI
             services.AddCors();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-            services.AddDbContext<ToDoAppContext>(
-                options => options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
+            //services.AddDbContext<ToDoAppContext>(
+            //    options => options.UseSqlServer(
+            //        Configuration.GetConnectionString("DefaultConnection")));
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             string connectionString = Configuration.GetConnectionString("DefaultConnection");
-            //services.AddScoped<IToDo>(m => new FinancialPlannerDAO_MOCK());
+            services.AddScoped<IToDoApp>(m => new ToDoEFDAL());
             //services.AddScoped<ILogService>(m => new LogDBService(connectionString));
             //services.AddScoped<IBankingService>(m => new MockVendingDBService(connectionString));
 

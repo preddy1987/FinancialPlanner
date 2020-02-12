@@ -16,6 +16,13 @@ namespace ToDoEFDB.Context
         public static readonly LoggerFactory MyConsoleLoggerFactory = new LoggerFactory(new[] {
             new ConsoleLoggerProvider((category, level) => category == DbLoggerCategory.Database.Command.Name && level == LogLevel.Information, true)});
 
+        public ToDoAppContext(DbContextOptions options) : base(options)
+        {
+        }
+
+        public ToDoAppContext()
+        {
+        }
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //{
         //    //optionsBuilder.UseSqlServer("Data Source=PREDDY-MASTER\\SQLEXPRESS;Initial Catalog=ToDoEFDB;Integrated Security=True");

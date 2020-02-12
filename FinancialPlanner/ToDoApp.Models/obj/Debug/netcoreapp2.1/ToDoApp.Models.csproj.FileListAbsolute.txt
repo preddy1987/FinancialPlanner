@@ -6,3 +6,12 @@ C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\ToDoApp.Models\obj\D
 C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\ToDoApp.Models\obj\Debug\netcoreapp2.1\ToDoApp.Models.AssemblyInfo.cs
 C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\ToDoApp.Models\obj\Debug\netcoreapp2.1\ToDoApp.Models.dll
 C:\workspace\GitHub Repos\FinancialPlanner\FinancialPlanner\ToDoApp.Models\obj\Debug\netcoreapp2.1\ToDoApp.Models.pdb
+C:\Work Space\Financial-Planner\FinancialPlanner\ToDoApp.Models\bin\Debug\netcoreapp2.1\ToDoApp.Models.deps.json
+C:\Work Space\Financial-Planner\FinancialPlanner\ToDoApp.Models\bin\Debug\netcoreapp2.1\ToDoApp.Models.dll
+C:\Work Space\Financial-Planner\FinancialPlanner\ToDoApp.Models\bin\Debug\netcoreapp2.1\ToDoApp.Models.pdb
+C:\Work Space\Financial-Planner\FinancialPlanner\ToDoApp.Models\obj\Debug\netcoreapp2.1\ToDoApp.Models.csprojAssemblyReference.cache
+C:\Work Space\Financial-Planner\FinancialPlanner\ToDoApp.Models\obj\Debug\netcoreapp2.1\ToDoApp.Models.csproj.CoreCompileInputs.cache
+C:\Work Space\Financial-Planner\FinancialPlanner\ToDoApp.Models\obj\Debug\netcoreapp2.1\ToDoApp.Models.AssemblyInfoInputs.cache
+C:\Work Space\Financial-Planner\FinancialPlanner\ToDoApp.Models\obj\Debug\netcoreapp2.1\ToDoApp.Models.AssemblyInfo.cs
+C:\Work Space\Financial-Planner\FinancialPlanner\ToDoApp.Models\obj\Debug\netcoreapp2.1\ToDoApp.Models.dll
+C:\Work Space\Financial-Planner\FinancialPlanner\ToDoApp.Models\obj\Debug\netcoreapp2.1\ToDoApp.Models.pdb
