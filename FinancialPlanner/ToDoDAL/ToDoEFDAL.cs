@@ -11,6 +11,25 @@ namespace ToDoDAL
     public class ToDoEFDAL : IToDoApp
     {
         #region RoleItem
+        public int AddRoleItem(RoleItem newRole)
+        {
+            int id;
+            using (var context = new ToDoAppContext())
+            {
+                RoleItem role = new RoleItem();
+                role.Name = newRole.Name;               
+                context.RoleItem.Add(role);
+                context.SaveChanges();
+                id = role.Id;
+            }
+            return id;
+        }
+
+        public bool UpdateRoleItem(RoleItem item)
+        {
+            throw new NotImplementedException();
+        }
+
         public RoleItem GetRoleItem(int roleId)
         {
             using (var context = new ToDoAppContext())
@@ -78,7 +97,16 @@ namespace ToDoDAL
         {
             using (var context = new ToDoAppContext())
             {
-                UserItem user = context.UserItem.Single(u => u.Id == userId);
+                UserItem user = context.UserItem.Find(userId);
+                return user;
+            }
+        }
+
+        public UserItem GetUserItem(string name)
+        {
+            using (var context = new ToDoAppContext())
+            {
+                UserItem user = context.UserItem.Single(u => u.Username == name);
                 return user;
             }
         }
@@ -129,11 +157,11 @@ namespace ToDoDAL
         public ToDoListItem AddToDoList(ToDoListItem newToDoList, int userId)
         {
             UserItem user;
+            ToDoListItem toDoList = new ToDoListItem();
             using (var context = new ToDoAppContext())
             {
                 user = context.UserItem.Find(userId);
-                
-                ToDoListItem toDoList = new ToDoListItem();
+ 
                 toDoList.Category = newToDoList.Category;
                 toDoList.Description = newToDoList.Category;
                 toDoList.Name = newToDoList.Name;
@@ -143,22 +171,28 @@ namespace ToDoDAL
                 user.UserToDoListItems.Add(new UserToDoListItem { ToDoListItemId = toDoList.Id });
                 context.SaveChanges();
             }
+            return toDoList;
         }
 
-        public UserItem GetUserItem(string name)
+        public ToDoItem AddToDo(ToDoItem newToDo, int toDoListId)
         {
-            throw new NotImplementedException();
+            ToDoItem toDo = new ToDoItem();
+            ToDoListItem toDoList;
+            using (var context = new ToDoAppContext())
+            {
+                toDoList = context.ToDoListItem.Find(toDoListId);
+
+                toDo.Name = newToDo.Name;
+                toDo.Description = newToDo.Description;
+                toDo.ToDoListItem = toDoList;
+
+                context.ToDoItem.Add(toDo);
+                context.SaveChanges();
+            }
+            return toDo;
         }
 
-        public int AddRoleItem(RoleItem item)
-        {
-            throw new NotImplementedException();
-        }
 
-        public bool UpdateRoleItem(RoleItem item)
-        {
-            throw new NotImplementedException();
-        }
         #endregion
     }
 }
